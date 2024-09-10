@@ -10,9 +10,9 @@
 }
 
 .introducao img {
+  width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 4px;
 }
 .introducao-content {
   align-self: end;
@@ -26,7 +26,6 @@
 .introducao p {
   margin-bottom: 20px;
 }
-
 
 @media (max-width: 800px) {
   .introducao-bg {
